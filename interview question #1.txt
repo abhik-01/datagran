@@ -1,0 +1,17 @@
+<app>
+	<integer name='n' />
+
+	<func divisors='main'>
+
+		<print>Enter an integer:<print/>
+		<read_input>
+			<variable name='n'/>
+		<read_input/>
+
+		<loop='for' variable='i' in range='1', <add <divide integer variable='n' value='2' /> value='1' /> />
+			<compare <modulus variable='n' value='i' /> value='0' />
+			<print><variable name='i' /><print/>
+
+		<print><variable name='n' /><print/>
+	</func>
+</app>
